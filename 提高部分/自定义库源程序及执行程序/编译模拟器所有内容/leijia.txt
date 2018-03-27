@@ -1,0 +1,33 @@
+
+  		IN	A	0		
+		LOADI	D	10
+		SUBI	A	48
+loop:		IN      B       0 
+		SUBI	B	48
+		LT     B	Z		#当B不是字符的时候，不再循环
+		CJMP  	loop3
+		MUL	A	A	D
+		ADD	A	A	B
+		LTE	Z	B               
+		CJMP	loop	
+loop3:		LOADI	B	1		# 将循环次数存入寄存器B中
+		LOADI	C	0		# 将和数存入寄存器C中
+		LOADI	E	1000	# 将和数转换成字符的除数
+		LOADI	F	0		# 用于提取个位，十位等的数字
+		LOADI	G	0		# 用于转换时的减数
+loop1:	ADD		C	C	B	# 计算D = C + B
+		ADDI	B	1		# 将B的值增加1
+		LTE	B	A			# B <= A?
+		CJMP	loop1		# 若B <= A 为真，则跳到loop处
+loop2: DIV		F	C	E	# F = C / E
+		ADDI	F	48		# 将数字转化为数字字符
+		OUT	F	15			# 输出F
+		SUBI	F	48		# 将数字字符转化为数字
+		MUL		G	F	E	# G = F * E
+		SUB		C	C	G	# C = C - G
+		DIV		E	E	D	# E = E / D
+		LOADI	A	0		# A = A - 100
+		LTE	E	A			# E <= 0?
+		NOTC				# 取反，即E > 0
+		CJMP	loop2		# 若E > 0 为真，则跳到loop2处
+		HLT					# 结束

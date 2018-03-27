@@ -1,0 +1,56 @@
+              	IN	A	0		
+		LOADI	D	10
+		LOADI	E	16
+		SUBI	A	48		  #变数字字符为数字
+loop:		IN      B       0 
+		SUBI	B	48
+		LT      B	Z		  #当B不是字符的时候
+		CJMP  	loop1
+		MUL	A	A	D
+		ADD	A	A	B
+		LTE	Z	B               
+		CJMP	loop
+
+loop1:		LOADI	B	0		
+		LOADI   C       0               
+		LOADI   D       0		
+		LOADI	E	16			      
+		LOADI	F	0				
+		LOADI   G       0			
+              
+
+                DIV    F    A   E
+                MUL    B    E   F
+                SUB    C    A   B
+                DIV    A    F   E
+                MUL    B    E   A
+                SUB    G    F   B
+                DIV    F    A   E   
+                MUL    B    F   E
+                SUB    D    A   B
+                DIV    A    F   E
+                MUL    B    E   A
+                SUB    A    F   B
+		
+		LOADI	E	10
+          	LT	A	E
+		CJMP	loop2
+		ADDI	A	7	
+loop2:          ADDI	A	48		# 将数字转化为数字字符
+		OUT	A	15	        # 输出
+                LT	D	E
+		CJMP	loop3
+		ADDI	D	7	
+loop3:          ADDI	D	48		# 将数字转化为数字字符
+		OUT	D	15	        # 输出
+                LT	G	E
+		CJMP	loop4
+		ADDI	G	7	
+loop4:          ADDI	G	48		# 将数字转化为数字字符
+		OUT	G	15	        # 输出
+                LT	C	E
+		CJMP	loop5
+		ADDI	C	7	
+loop5:          ADDI	C	48		# 将数字转化为数字字符
+		OUT	C	15	        # 输出
+		HLT				# 结束

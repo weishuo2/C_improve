@@ -1,0 +1,130 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Teacher\AppData\Local\Temp\RSP9BAB.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\教学\李开的电子教案\2015春C-CS1401-03\课程设计\基础部分\菜单框架实例\CodeBlocks\main.c"
+]
+Creating command line "cl.exe @C:\Users\Teacher\AppData\Local\Temp\RSP9BAB.tmp" 
+<h3>Output Window</h3>
+Compiling...
+main.c
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(396) : error C2275: 'SMALL_RECT' : illegal use of this type as an expression
+        d:\program files (x86)\microsoft visual studio\vc98\include\wincon.h(39) : see declaration of 'SMALL_RECT'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(396) : error C2146: syntax error : missing ';' before identifier 'rcMenu'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(396) : error C2065: 'rcMenu' : undeclared identifier
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(396) : error C2059: syntax error : '{'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(399) : warning C4133: 'function' : incompatible types - from 'int *' to 'struct _SMALL_RECT *'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(414) : warning C4133: 'function' : incompatible types - from 'int *' to 'struct _SMALL_RECT *'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(415) : error C2275: 'COORD' : illegal use of this type as an expression
+        d:\program files (x86)\microsoft visual studio\vc98\include\wincon.h(32) : see declaration of 'COORD'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(415) : error C2146: syntax error : missing ';' before identifier 'endPos'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(415) : error C2065: 'endPos' : undeclared identifier
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(415) : error C2059: syntax error : '{'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(416) : error C2115: 'function' : incompatible types
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(416) : warning C4024: 'SetConsoleCursorPosition' : different types for formal and actual parameter 2
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(455) : error C2275: 'SMALL_RECT' : illegal use of this type as an expression
+        d:\program files (x86)\microsoft visual studio\vc98\include\wincon.h(39) : see declaration of 'SMALL_RECT'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(455) : error C2146: syntax error : missing ';' before identifier 'rcMenu'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(455) : error C2059: syntax error : '{'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(460) : warning C4133: 'function' : incompatible types - from 'int *' to 'struct _SMALL_RECT *'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(476) : warning C4133: 'function' : incompatible types - from 'int *' to 'struct _SMALL_RECT *'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(549) : error C2275: 'SMALL_RECT' : illegal use of this type as an expression
+        d:\program files (x86)\microsoft visual studio\vc98\include\wincon.h(39) : see declaration of 'SMALL_RECT'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(549) : error C2146: syntax error : missing ';' before identifier 'rcMenu'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(549) : error C2059: syntax error : '{'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(550) : warning C4133: 'function' : incompatible types - from 'int *' to 'struct _SMALL_RECT *'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(697) : warning C4244: '=' : conversion from 'unsigned short ' to 'char ', possible loss of data
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(939) : error C2275: 'COORD' : illegal use of this type as an expression
+        d:\program files (x86)\microsoft visual studio\vc98\include\wincon.h(32) : see declaration of 'COORD'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(939) : error C2146: syntax error : missing ';' before identifier 'aLoc'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(939) : error C2065: 'aLoc' : undeclared identifier
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(939) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(942) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(942) : error C2224: left of '.X' must have struct/union type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(943) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(943) : error C2224: left of '.Y' must have struct/union type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(945) : warning C4047: '=' : 'struct _COORD *' differs in levels of indirection from 'int '
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(948) : error C2275: 'SMALL_RECT' : illegal use of this type as an expression
+        d:\program files (x86)\microsoft visual studio\vc98\include\wincon.h(39) : see declaration of 'SMALL_RECT'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(948) : error C2146: syntax error : missing ';' before identifier 'aArea'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(948) : error C2065: 'aArea' : undeclared identifier
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(948) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(949) : error C2143: syntax error : missing ';' before 'type'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(950) : error C2143: syntax error : missing ';' before 'type'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(953) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(953) : error C2224: left of '.Left' must have struct/union type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(954) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(954) : error C2224: left of '.Top' must have struct/union type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(955) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(955) : error C2224: left of '.Right' must have struct/union type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(956) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(956) : error C2224: left of '.Bottom' must have struct/union type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(956) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(956) : error C2224: left of '.Top' must have struct/union type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(957) : error C2065: 'aSort' : undeclared identifier
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(957) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(957) : error C2106: '=' : left operand must be l-value
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(958) : error C2065: 'aTag' : undeclared identifier
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(958) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(958) : error C2106: '=' : left operand must be l-value
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(960) : warning C4047: '=' : 'struct _SMALL_RECT *' differs in levels of indirection from 'int '
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(961) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int '
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(962) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int '
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1287) : warning C4244: '=' : conversion from 'unsigned short ' to 'char ', possible loss of data
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1393) : error C2057: expected constant expression
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1393) : error C2466: cannot allocate an array of constant size 0
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1393) : error C2133: 'pFunction' : unknown size
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1495) : error C2275: 'COORD' : illegal use of this type as an expression
+        d:\program files (x86)\microsoft visual studio\vc98\include\wincon.h(32) : see declaration of 'COORD'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1495) : error C2146: syntax error : missing ';' before identifier 'aLoc'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1495) : error C2059: syntax error : ']'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1497) : warning C4047: '=' : 'struct _COORD *' differs in levels of indirection from 'int '
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1500) : error C2275: 'SMALL_RECT' : illegal use of this type as an expression
+        d:\program files (x86)\microsoft visual studio\vc98\include\wincon.h(39) : see declaration of 'SMALL_RECT'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1500) : error C2146: syntax error : missing ';' before identifier 'aArea'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1500) : error C2059: syntax error : ']'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1504) : error C2143: syntax error : missing ';' before 'type'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1505) : error C2143: syntax error : missing ';' before 'type'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1506) : warning C4047: '=' : 'struct _SMALL_RECT *' differs in levels of indirection from 'int '
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1507) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int '
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1508) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int '
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1990) : error C2275: 'COORD' : illegal use of this type as an expression
+        d:\program files (x86)\microsoft visual studio\vc98\include\wincon.h(32) : see declaration of 'COORD'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1990) : error C2146: syntax error : missing ';' before identifier 'aLoc'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1990) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1993) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1993) : error C2224: left of '.X' must have struct/union type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1994) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1994) : error C2224: left of '.Y' must have struct/union type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1998) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1998) : error C2224: left of '.X' must have struct/union type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1999) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1999) : error C2224: left of '.Y' must have struct/union type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1999) : error C2109: subscript requires array or pointer type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(1999) : error C2224: left of '.Y' must have struct/union type
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(2001) : warning C4047: '=' : 'struct _COORD *' differs in levels of indirection from 'int '
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(2004) : error C2275: 'SMALL_RECT' : illegal use of this type as an expression
+        d:\program files (x86)\microsoft visual studio\vc98\include\wincon.h(39) : see declaration of 'SMALL_RECT'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(2004) : error C2146: syntax error : missing ';' before identifier 'aArea'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(2004) : error C2059: syntax error : ']'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(2007) : error C2143: syntax error : missing ';' before 'type'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(2008) : error C2143: syntax error : missing ';' before 'type'
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(2010) : warning C4047: '=' : 'struct _SMALL_RECT *' differs in levels of indirection from 'int '
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(2011) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int '
+e:\教学\李开的电子教案\2015春c-cs1401-03\课程设计\基础部分\菜单框架实例\codeblocks\main.c(2012) : warning C4047: '=' : 'char *' differs in levels of indirection from 'int '
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+main.obj - 74 error(s), 20 warning(s)
+</pre>
+</body>
+</html>
